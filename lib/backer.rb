@@ -5,6 +5,7 @@ class Backer
   
 def initialize(name)
   @name = name 
+  @project_array = []
 end
 
 def back_project(project)
