@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def back_project(project)
-  project_array << project
+  @@project_array << project
 end 
 
 end 
