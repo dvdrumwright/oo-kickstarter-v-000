@@ -1,13 +1,13 @@
 class Project 
-  attr_accessor :title, :backers_array 
+  attr_accessor :title, :backers 
   
 def initialize(title)
   @title = title
-  @backers_array = []
+  @backers  = []
 end
 
 def add_badker(backer)
-  @backers_array << backer 
+  @backers << backer 
 end 
 
 end 
