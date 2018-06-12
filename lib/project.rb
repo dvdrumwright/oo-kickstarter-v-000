@@ -7,5 +7,7 @@ def initialize(title)
 end
 
 def add_badker(backer)
+  @backers_array << backer 
+end 
 
 end 
