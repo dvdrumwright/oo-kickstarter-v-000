@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def back_project(project)
-  @project_array << project
+ @backed_project << project
 end 
 
 end 
