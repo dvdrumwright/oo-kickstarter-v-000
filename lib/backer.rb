@@ -1,7 +1,7 @@
 class Backer 
   attr_accessor :name 
   
-  project_array = []
+  @@project_array = []
   
 def initialize(name)
   @name = name 
